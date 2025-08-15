@@ -54,7 +54,7 @@ const ContactSection = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 neon-text sparkle">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-primary">
             Get In Touch
           </h2>
           <div className="w-24 h-1 bg-gradient-neon mx-auto mb-8"></div>

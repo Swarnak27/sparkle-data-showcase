@@ -72,64 +72,14 @@
 }
 
 @layer components {
-  /* Neon text effects */
-  .neon-text {
-    text-shadow: 
-      0 0 5px hsl(var(--primary)),
-      0 0 10px hsl(var(--primary)),
-      0 0 15px hsl(var(--primary)),
-      0 0 20px hsl(var(--primary));
-    animation: neon-flicker 2s ease-in-out infinite alternate;
-  }
-
-  .neon-text-secondary {
-    text-shadow: 
-      0 0 5px hsl(var(--secondary)),
-      0 0 10px hsl(var(--secondary)),
-      0 0 15px hsl(var(--secondary));
-  }
-
-  /* Sparkle animation */
-  .sparkle {
-    position: relative;
-    display: inline-block;
-  }
-
-  .sparkle::before,
-  .sparkle::after {
-    content: '✨';
-    position: absolute;
-    animation: sparkle-animation 2s ease-in-out infinite;
-  }
-
-  .sparkle::before {
-    top: -10px;
-    left: -20px;
-    animation-delay: 0s;
-  }
-
-  .sparkle::after {
-    bottom: -10px;
-    right: -20px;
-    animation-delay: 1s;
-  }
-
-  /* Glow effects */
+  /* Minimal glow effects */
   .glow-hover {
     transition: var(--transition-glow);
   }
 
   .glow-hover:hover {
-    box-shadow: var(--glow-primary);
-    transform: translateY(-2px);
-  }
-
-  .glow-secondary:hover {
-    box-shadow: var(--glow-secondary);
-  }
-
-  .glow-accent:hover {
-    box-shadow: var(--glow-accent);
+    box-shadow: 0 4px 12px hsl(var(--primary) / 0.15);
+    transform: translateY(-1px);
   }
 
   /* Background effects */
@@ -156,35 +106,30 @@
     animation: gradient-shift 15s ease infinite;
   }
 
-  /* Button variants */
+  /* Minimal button variants */
   .btn-neon {
     background: transparent;
     border: 2px solid hsl(var(--primary));
     color: hsl(var(--primary));
-    text-shadow: 0 0 10px hsl(var(--primary));
-    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
     transition: var(--transition-glow);
   }
 
   .btn-neon:hover {
     background: hsl(var(--primary) / 0.1);
-    box-shadow: 
-      0 0 30px hsl(var(--primary) / 0.6),
-      inset 0 0 20px hsl(var(--primary) / 0.1);
-    transform: translateY(-2px);
+    box-shadow: 0 2px 8px hsl(var(--primary) / 0.2);
+    transform: translateY(-1px);
   }
 
   .btn-cyber {
     background: var(--gradient-cyber);
     border: none;
     color: hsl(var(--background));
-    box-shadow: 0 4px 15px hsl(var(--primary) / 0.3);
     transition: var(--transition-smooth);
   }
 
   .btn-cyber:hover {
-    box-shadow: 0 6px 25px hsl(var(--primary) / 0.5);
-    transform: translateY(-3px);
+    box-shadow: 0 4px 12px hsl(var(--primary) / 0.25);
+    transform: translateY(-1px);
   }
 
   /* Floating animation */
@@ -192,7 +137,7 @@
     animation: floating 3s ease-in-out infinite;
   }
 
-  /* Skill card effects */
+  /* Minimal card effects */
   .skill-card {
     background: var(--gradient-dark);
     border: 1px solid hsl(var(--border));
@@ -201,8 +146,8 @@
 
   .skill-card:hover {
     border-color: hsl(var(--primary));
-    box-shadow: var(--shadow-neon);
-    transform: translateY(-5px);
+    box-shadow: 0 4px 12px hsl(var(--primary) / 0.1);
+    transform: translateY(-2px);
   }
 
   /* Project card */
@@ -216,8 +161,8 @@
   .project-card:hover {
     background: rgba(255, 255, 255, 0.05);
     border-color: hsl(var(--secondary));
-    box-shadow: 0 10px 40px hsl(var(--secondary) / 0.2);
-    transform: translateY(-10px);
+    box-shadow: 0 6px 20px hsl(var(--secondary) / 0.1);
+    transform: translateY(-3px);
   }
 
   /* Navigation styles */

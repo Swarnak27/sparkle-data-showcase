@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section id="about" className="py-20 animated-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 neon-text sparkle">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-primary">
             About Me
           </h2>
           <div className="w-24 h-1 bg-gradient-neon mx-auto mb-8"></div>
@@ -14,7 +14,7 @@ const AboutSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="bg-card/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-border glow-hover">
             <blockquote className="text-2xl md:text-3xl font-medium text-center mb-8 italic">
-              <span className="neon-text-secondary">"Turning data into decisions with clarity and creativity."</span>
+              <span className="text-secondary">"Turning data into decisions with clarity and creativity."</span>
             </blockquote>
             
             <p className="text-lg text-center mb-12 text-muted-foreground leading-relaxed">

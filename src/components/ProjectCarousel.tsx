@@ -12,7 +12,7 @@ const ProjectCarousel = () => {
       title: "Mental Health Chatbot",
       description: "Python chatbot with API integration & data insights for mental health support.",
       tech: ["Python", "API Integration", "Data Analysis"],
-      github: "#",
+      github: "https://github.com/Swarnak27/Mental-Health-Chatbot",
       gradient: "bg-gradient-neon"
     },
     {
@@ -20,7 +20,7 @@ const ProjectCarousel = () => {
       title: "Indian Airlines Dashboard",
       description: "Power BI dashboard transforming raw aviation data into actionable insights.",
       tech: ["Power BI", "Data Visualization", "Aviation Data"],
-      github: "#",
+      github: "https://github.com/Swarnak27/Indian_Airlines_POWER-BI_Dashboard.git",
       gradient: "bg-gradient-cyber"
     },
     {
@@ -28,7 +28,7 @@ const ProjectCarousel = () => {
       title: "Insurance Sales Dashboard",
       description: "Interactive Power BI analytics for comprehensive sales performance tracking.",
       tech: ["Power BI", "Sales Analytics", "KPI Tracking"],
-      github: "#",
+      github: "https://github.com/Swarnak27/Insurance-Wealth-Analytics-Dashboard.git",
       gradient: "bg-gradient-purple"
     },
     {
@@ -36,7 +36,7 @@ const ProjectCarousel = () => {
       title: "Automated Cloud Weekly Report",
       description: "Cloud-based automated reporting system for streamlined data workflows.",
       tech: ["Cloud Computing", "Automation", "Reporting"],
-      github: "#",
+      github: "https://github.com/Swarnak27/Cloud-Automated-Report.git",
       gradient: "bg-gradient-neon"
     },
     {
@@ -44,7 +44,7 @@ const ProjectCarousel = () => {
       title: "Medicine Expiry & Waste Prevention",
       description: "MySQL system for tracking medicine batches & preventing waste through expiry monitoring.",
       tech: ["MySQL", "Database Design", "Healthcare"],
-      github: "#",
+      github: "https://github.com/Swarnak27/Medicine_Expiry-Waste_prevention_System.git",
       gradient: "bg-gradient-cyber"
     },
     {
@@ -52,7 +52,7 @@ const ProjectCarousel = () => {
       title: "Smart Transport & Safety Tracker",
       description: "MySQL system for comprehensive vehicle tracking & safety monitoring solutions.",
       tech: ["MySQL", "Real-time Tracking", "Safety Systems"],
-      github: "#",
+      github: "https://github.com/Swarnak27/-Smart-Transport-and-Safety-Tracking-System.git",
       gradient: "bg-gradient-purple"
     }
   ];
@@ -85,7 +85,7 @@ const ProjectCarousel = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 neon-text sparkle">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-primary">
             Featured Projects
           </h2>
           <div className="w-24 h-1 bg-gradient-neon mx-auto mb-8"></div>

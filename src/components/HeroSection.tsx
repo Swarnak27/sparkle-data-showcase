@@ -26,10 +26,10 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="floating">
           <h1 className="text-5xl md:text-7xl font-display font-bold mb-6">
-            Hi, I'm <span className="neon-text sparkle">Swarna K</span>
+            Hi, I'm <span className="text-primary">Swarna K</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
-            <span className="neon-text-secondary">Aspiring Data Analyst</span> | 
+            <span className="text-secondary">Aspiring Data Analyst</span> | 
             <span className="text-primary"> SQL Developer</span> | 
             <span className="text-accent"> Data Visualization Enthusiast</span>
           </p>
