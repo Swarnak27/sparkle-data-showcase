@@ -42,7 +42,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               className="btn-cyber px-8 py-3 text-lg font-semibold"
-              onClick={() => window.open('#', '_blank')}
+              onClick={() => window.open('/lovable-uploads/05cb1476-d290-4f0d-9528-30cf1ede3a29.png', '_blank')}
             >
               <Download className="mr-2" size={20} />
               View Resume
